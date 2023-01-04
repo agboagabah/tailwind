@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <br> <br>
+    <br>
+    <br>
+    <div class="max-w-screen-md mx-auto px-6 py-2 block shadow-blue-200">
+        <h1 class=" mt-4 leading-7 text-teal-500  text-3xl sm:text-4xl font-extrabold tracking-tight  ">Welcome! <span class="text-indigo-500">Create Account</span></h1>
+        <br> <br>
+         
+        <form onsubmit="document.alert('Signup Succcessful')">
+                <label for="Firstname" class="text-2xl"><b>Firstname:</b></label>
+                <input type="text" name="Firstname" name="Firstname" required class="appearance-none focus:bg-white bg-gray-200 text-gray-700 border-red-500  border rounded focus:outline-none">
+                <br> <br>
+                <label for="Lastname"class="text-2xl"><b>Lastname:</b></label>
+                <input type="text" name="Lastname" name="Lastname" required class="appearance-none focus:bg-white bg-gray-200 text-gray-700 border-red-500  border rounded focus:outline-none">
+                <br> <br>
+                <label for="Email" class="text-2xl"><b>Email:</b></label>
+                <input type="email" name="Email" name="Email" required class="appearance-none focus:bg-white bg-gray-200 text-gray-700 border-red-500  border rounded focus:outline-none">
+                <br> <br>
+                <label for="Password" class="text-2xl"><b>Password:</b></label>
+                <input type="password" name="Password"  name="Password"class="appearance-none focus:bg-white bg-gray-200 text-gray-700 border-red-500  border rounded focus:outline-none" required>
+                <br> <br>
+                <label for="Confirm password" class="text-2xl"><b>Confirm Password</b></label>
+                <input type="password" name="Confirm password"  name="Confirm password" required class="appearance-none focus:bg-white bg-gray-200 text-gray-700 border-red-500  border rounded focus:outline-none"> <button type="submit" class="shadow  text-white bg-indigo-400 focus:shadow-outline focus:shadow-none font-bold py-2 px-6 rounded"><b>Sign Up<b></b></button>
+
+                <p class="leading-7">By signing up, you agree to our  <span class="text-purple-500"><a href="nil.com">Terms</a></span> and</p><span class="text-purple-500"><a href="nil.com">Privacy Policies</a></span></p>
+            </div>
+
+             </form>
+
+         
+    </div>
+    
+</body>
+</html>
